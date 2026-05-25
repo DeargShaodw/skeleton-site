@@ -1,0 +1,23 @@
+/* ================================
+   PALETTE 2 — Warm natural
+   Clients: Salons, Spas, health wellness, botiques
+   Font link: <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+   ================================ */
+
+
+:root {
+--color-bg: #fdf8f2;
+--color-surface: #f0e8dc;
+--color-primary: #8b5e3c;
+--color-accent: #c4845a;
+--color-text: #2c1a0e;
+--color-text-muted: #7a6055;
+--font-heading: 'Playfair Display', serif;
+--font-body: 'Lato', sans-serif;
+}
+
+html
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+end html

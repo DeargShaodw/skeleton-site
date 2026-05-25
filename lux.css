@@ -1,0 +1,15 @@
+
+/* ================================
+   PALETTE 2 — Dark Luxuary
+   Clients: contractors, law, finance
+
+   ================================ */
+
+:root {--color-bg: #0a0a0a;
+--color-surface: #1a1a1a;
+--color-primary: #8b0000;
+--color-accent: #cc2200;
+--color-text: #e8e8e8;
+--color-text-muted: #888888;
+--font-heading: 'Georgia', serif;
+--font-body: 'Arial', sans-serif;}

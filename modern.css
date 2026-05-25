@@ -1,0 +1,22 @@
+/* ================================
+   PALETTE 2 — Bold Modern
+   Clients: Gyms, Resturants, trainers, modern businesses
+   Font link: <<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+   ================================ */
+
+:root {
+--color-bg: #f5f5f5;
+--color-surface: #ffffff;
+--color-primary: #e63946;
+--color-accent: #f4a261;
+--color-text: #1a1a1a;
+--color-text-muted: #555555;
+--font-heading: 'Oswald', sans-serif;
+--font-body: 'Source Sans Pro', sans-serif;
+}
+
+html section
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+
+end html

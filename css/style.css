@@ -1,0 +1,136 @@
+:root {
+    --color-bg: #0a0a0a;
+    --color-surface: #1a1a1a;
+    --color-primary: #8b0000;
+    --color-accent: #cc2200;
+    --color-text: #e8e8e8;
+    --color-text-muted: #888888;
+    --font-heading: 'Georgia', serif;
+    --font-body: 'Arial', serif;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: var(--color-bg);
+        color: var(--color-text);
+        font-family: var(--font-body);
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        padding: 1rem 2rem;
+        background-color: var(--color-surface);
+    }
+
+    nav a {
+        color: var(--color-text);
+        text-decoration: none;
+        margin-left: 2rem;
+    }
+
+    #hero {
+        padding: 8rem 2rem;
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-family: var(--font-heading);
+        font-size: 4rem;
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+    }
+
+    #hero p {
+        font-size: 1.2rem;
+        color: var(--color-text-muted);
+        margin-bottom: 2rem;
+    }
+
+    #hero a {
+        background-color: var(--color-primary);
+        color: #39ac22;
+        padding: 1rem 2rem;
+        text-decoration: none;
+    }
+
+    #services {
+        padding: 4rem 2rem;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .service-card {
+        background-color: var(--color-surface);
+        padding: 2rem;
+        flex: 1;
+        max-width: 300px;
+    
+    }
+
+    .service-card h3 {
+        color: var(--color-primary);
+        margin-bottom: 1rem;
+    }
+
+    #about {
+        padding: 4rem 2rem;
+        text-align: center;
+    }
+
+    #contact {
+        padding: 4rem 2rem;
+        text-align: center;
+        background-color: var(--color-surface);
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        nav {
+            justify-content: center;
+        }
+
+        #services {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .service-card {
+            max-width: 100%;
+            width: 100%;
+        }
+        .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: var(--color-text);
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    nav.nav-open a {
+        display: block;
+    }
+    }
+.faq-answer {
+    display: none;
+}
+
+.faq-answer.open {
+    display:block;
+}
+    

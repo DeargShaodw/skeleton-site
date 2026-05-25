@@ -1,0 +1,25 @@
+/* ================================
+   PALETTE 2 — Minimal Light
+   Clients: Photographaers, Architects, interior designers, creatives
+   Font link: <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+   ================================ */
+
+
+:root {
+--color-bg: #ffffff;
+--color-surface: #fafafa;
+--color-primary: #111111;
+--color-accent: #555555;
+--color-text: #111111;
+--color-text-muted: #999999;
+--font-heading: 'Cormorant Garamond', serif;
+--font-body: 'Inter', sans-serif;
+}
+
+
+html section
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+html end
