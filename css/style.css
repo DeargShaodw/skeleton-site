@@ -212,3 +212,196 @@ nav a {
         margin: 0.5rem 0;
     }
 }
+
+
+/* =============================
+   ABOUT PAGE
+   ============================= */
+
+/* About — Page Hero */
+#about-hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: var(--color-primary);
+}
+
+#about-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#about-hero p {
+    font-size: 1.2rem;
+    color: #ffffffcc;
+}
+
+/* About — Our Story */
+#our-story {
+    padding: 4rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#our-story h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+#our-story p {
+    color: var(--color-text-muted);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+/* About — Why Us */
+#why-us {
+    padding: 4rem 2rem;
+    background-color: var(--color-surface);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    #why-us {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* =============================
+   SERVICES PAGE
+   ============================= */
+
+/* Services — Page Hero */
+#services-hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: var(--color-primary);
+}
+
+#services-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#services-hero p {
+    font-size: 1.2rem;
+    color: #ffffffcc;
+}
+
+/* Services — Detail Cards */
+#services-detail {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.service-detail-card {
+    background-color: var(--color-surface);
+    padding: 2rem;
+    border-left: 4px solid var(--color-accent);
+}
+
+.service-detail-card h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 1rem;
+}
+
+.service-detail-card p {
+    color: var(--color-text-muted);
+    line-height: 1.8;
+}
+
+/* =============================
+   END SERVICES PAGE
+   ============================= */
+
+   /* =============================
+   FAQ PAGE
+   ============================= */
+
+/* FAQ — Page Hero */
+#faq-hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: var(--color-primary);
+}
+
+#faq-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#faq-hero p {
+    font-size: 1.2rem;
+    color: #ffffffcc;
+}
+
+/* FAQ — Questions */
+#faq {
+    padding: 4rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* =============================
+   END FAQ PAGE
+   ============================= */
+
+   /* =============================
+   CONTACT PAGE
+   ============================= */
+
+/* Contact — Page Hero */
+#contact-hero {
+    padding: 6rem 2rem;
+    text-align: center;
+    background-color: var(--color-primary);
+}
+
+#contact-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+#contact-hero p {
+    font-size: 1.2rem;
+    color: #ffffffcc;
+}
+
+/* Contact — Info Block */
+#contact-info {
+    padding: 3rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact-info h2 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+#contact-info p {
+    color: var(--color-text-muted);
+    line-height: 2;
+}
+
+/* =============================
+   END CONTACT PAGE
+   ============================= */

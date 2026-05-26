@@ -1,0 +1,16 @@
+skeleton-site/
+  index.html
+  css/
+    style.css
+  js/
+    nav.js
+    form.js
+    accordion.js
+  pages/
+    about.html
+    services.html
+    testimonials.html
+    gallery.html
+    contact.html
+  images/
+  README.md
